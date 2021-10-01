@@ -1,0 +1,90 @@
+body{
+    font-size: 20px;
+}
+
+
+.heading{
+    width: 25%;
+    margin: 30px auto;
+    text-align: center;
+    color: #f50e0e;
+    background: #efeff1;
+    border: 2px solid #080808;
+    border-radius: 30px;
+}
+form{
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 1px solid #070707;
+    
+}
+form p{
+    color:rgb(8, 8, 8);
+    margin: 0px;
+}
+form .note{
+    color:rgb(0, 0, 0);
+    margin: 0px;
+    text-align: left;
+    
+}
+.task_input{
+    width: 50%;
+    height: 15px;
+    padding: 8px;
+    border: 2px solid #060800;
+    
+}
+.add_btn{
+    height: 39px;
+    font-size: 15px;
+    font-weight: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #f0efee;
+    color: #050701;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+table{
+    width: 40%;
+    margin: 30px auto;
+    border-collapse:collapse;
+   
+}
+tr{
+    border-bottom: 1px solid #208496;
+}
+th{
+    font-size: 19px;
+    color: #000000;
+
+}
+th,td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+tbody{
+    text-align: center;
+}
+tr:hover{
+    background: #e9e9e9;
+
+}
+.task{
+    text-align: center;
+}
+.delete{
+    text-align: center;
+}
+.delete a{
+    color: white;
+    background: #f85d5d;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
